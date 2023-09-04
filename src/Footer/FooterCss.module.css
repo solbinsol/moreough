@@ -1,0 +1,35 @@
+.Footer{
+
+    left: 0;
+    width: 100%;
+    float: left;
+    text-align: center;
+    position: relative;
+    bottom: 0;
+    height: 400px;
+    background-color: #222222;
+
+}
+.Footer img{
+    width: 3%;
+    margin-top: 2%;
+    filter: grayscale(100%);
+
+    /*background-color: #595959;*/
+}
+.Logo{
+    color: white;
+    margin-bottom: 50px;
+}
+.Footer p{
+    line-height:9px;
+    color:#595959;
+    font-size: 13px;
+}
+.point{
+    color:#959393;
+
+}
+.Fb{
+    margin-top: 35px;
+}

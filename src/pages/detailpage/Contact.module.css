@@ -1,0 +1,57 @@
+@media screen and (max-width:500px) {
+    .Ko{
+        display: none;
+    }
+    .En{
+        display: initial !important;
+    }
+     
+}
+.dpg p{
+    line-height: 7px;
+}
+.dpg{
+    background-color: #C5C7B8;
+    float: left;
+    width: 100%;
+}
+.ImgBox{
+    margin-top: 5%;
+    width: 80%;
+    margin-left: 10%;
+}
+
+@font-face{
+    font-family:'bitbit';
+    src:url('//cdn.df.nexon.com/img/common/font/DNFBitBit-Regular.woff'),url('//cdn.df.nexon.com/img/common/font/DNFBitBit-Regular.woff2') ;
+  }
+.ImgBox img{
+    width: 100%;
+}
+.ImgBox p{
+    text-align: center;
+}
+.EnP{
+    line-height: 16px;    font-family:'bitbit';
+
+}
+.ImgBox button{
+    width: 15%;
+    margin-left: 43%;
+    padding: 0px 20px 0px 20px;
+    height: 60px;
+    margin-top: 10px;
+    margin-bottom: 25px;
+    background-color: rgba(0,0,0,0);
+    border: 2px solid white;
+}
+.En{
+    display: none;
+}
+
+
+
+.ppp{
+    margin-top: 5%;
+    margin-bottom: 10%;
+}

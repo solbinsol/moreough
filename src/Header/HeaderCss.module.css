@@ -1,0 +1,165 @@
+@font-face {
+    font-family: 'neon';
+    src: url('/font/bebas/Bebas-Regular.ttf') format('truetype');
+}
+
+@media screen and (max-width:1451px) and (min-width:851px) {
+
+    .Logo{
+        margin-left: 1%;
+        width:20% !important ;
+        margin-right: 15% !important;
+        font-size: 30px !important;
+    }
+    .AllMenu{
+        width: 3% !important;
+    }
+}
+@media screen and (max-width:850px) and (min-width:590px) {
+    .Header{
+        height: 60px !important;
+    }
+    .Content{
+        width: 100% !important;
+    }
+    .Content li{
+
+    }
+    .t{
+        width: 12% !important;
+    }
+    .Logo{
+        margin-left: 1%;
+        margin-right: 7% !important;
+    }
+    .AllMenu{
+        margin-left: 5% !important;
+    }
+}
+@media screen and (max-width:589px) and (min-width:384px) {
+    .Header{
+        height: 55px !important;
+    }
+    .Content{
+        width: 100% !important;
+    }
+
+    .t{
+        margin-right: 5% !important;
+    }
+    .Logo{
+        margin-left: 1%;
+        margin-right:6% !important;
+        font-size: 20px !important;
+    }
+    .AllMenu{
+        margin-left: 1% !important;
+        width: 5% !important;
+
+    }
+}
+@media screen and (max-width:383px) and (min-width:200px) {
+    .Header{
+        height: 40px !important;
+    }
+    .Content{
+        width: 100% !important;
+        float: left !important; 
+        text-align: left;
+    }
+    .Content li{
+    }
+    .t{ 
+        margin-right: 2% !important;
+    }
+    .Logo{
+        font-size: 16px !important;
+        margin-right: 5% !important;
+        margin-top: 30px !important;
+        width: auto !important ;
+    }
+    .AllMenu{
+        margin-left: 5% !important;
+        width: 1% !important;
+    }
+}
+/* @media screen and (max-width:500px) and (min-width:300px) {
+    .Content li{
+        width: 13% !important;
+        font-size: 11px !important;
+        background-color: red;
+    }
+    .Content{
+        float: left;
+        background-color: blue;
+        width: 100% !important;
+    }
+    .Logo{
+        width: 30% !important;
+        margin-right: 10% !important;
+        font-size: 11px !important;
+    }
+    .AllMenu{
+        width:5% !important;
+    }
+} */
+
+.Header{
+    width: 100%;
+    font-family: 'neon';
+    z-index: 9;
+    height: 80px;
+    position: fixed;
+    top: 0;
+    font-weight: bold;
+    background-color: rgba(0, 0, 0, 0); /* 완전 투명 */
+    color:whitesmoke;
+    text-decoration: none;
+
+}
+
+
+.Content{
+    padding: 0;
+    font-weight: bold;
+    float: left;
+    width: 100%;
+    text-decoration: none;
+    display: inline-block; /* 리스트 아이템을 인라인 요소로 표시하여 수평으로 정렬 */
+
+
+}
+
+.Content li{
+    padding: 0;
+    cursor: pointer;
+    color: inherit; /* 링크 색상을 상위 요소와 동일하게 설정 */
+    float: left;
+    text-align: center;
+    list-style: none;
+}
+.t{
+    margin-right: 1%;
+    margin-top: 30px;
+
+
+}
+.Logo{
+    padding: 0;
+    cursor: pointer;
+    margin-right: 32%;
+    margin-left: 5%;
+    margin-top: 28px;
+    font-size: 25px;
+    font-weight: bold;
+    vertical-align: middle; /* 수직 정렬을 중앙으로 설정 */
+    text-align: left;
+    float: left;
+}
+
+.AllMenu{
+    margin-top: 30px;
+    width: 5%;
+    margin-left: 35%;
+    font-weight: bold;
+}

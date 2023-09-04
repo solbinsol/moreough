@@ -1,0 +1,51 @@
+.dpg{
+    background-color: #C5C7B8;
+    width: 100%;
+
+}
+.LImgBox{
+    width: 50%;
+    float: left;
+    background-color: red;
+}
+.LImgBox img{
+    float: left;
+    height: 100vh;
+
+    width: 100%;
+}
+.RImgBox{
+    width: 100%;
+    float: right;
+}
+.RImgBox img{
+    height: 100vh;
+    float: left;
+    width: 100%;
+    z-index: 1;
+}
+
+
+
+.Rcontent {
+    float: left;
+    width: 50%;
+    z-index: 1; /* Rcontent의 z-index를 1로 설정하여 다른 요소 위에 표시 */
+  }
+  
+  .Cafe {
+    position: absolute; /* 포지션을 절대 위치(absolute)로 설정 */
+    left: 0; /* Cafe를 Rcontent의 왼쪽에 배치 */
+    font-size: 17px;
+    bottom: 0;
+    background-color: rgba(0, 0, 0, 0.3);
+    width: 100%;
+    color: white;
+    z-index: 2; /* Cafe의 z-index를 2로 설정하여 Rcontent 위에 표시 */
+  }
+  .Cafe h2{
+    margin-left: 5%;
+  }
+  .Cafe p{
+    margin-left: 5%;
+  }
