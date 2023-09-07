@@ -14,6 +14,12 @@
     }
 }
 
+@font-face {
+    font-family: 'abc';
+    src: url('/font/abc/HANAMDAUM_Body(Windows)_a.ttf') format('truetype');
+}
+
+
 .Slider{
     width: 100%;
     position: relative;
@@ -35,6 +41,7 @@
 }
 .CenterBtn button{
     font-size: 15px;
+    font-family: 'abc';
     font-weight: bold;
     color:  white;
     width: 120px;

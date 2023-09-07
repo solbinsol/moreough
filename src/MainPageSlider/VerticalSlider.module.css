@@ -18,4 +18,9 @@
   .sliderItem.active {
     color: #fff;
   }
-  
+
+
+  @font-face {
+    font-family: 'abc';
+    src: url('/font/abc/HANAMDAUM_Body(Windows)_a.ttf') format('truetype');
+}

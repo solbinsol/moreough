@@ -2,7 +2,58 @@
     font-family: 'neon';
     src: url('/font/bebas/Bebas-Regular.ttf') format('truetype');
 }
+@media screen and (max-width:3000px) and (min-width:2300px) {
+    .t{ 
+        font-size: 35px !important;
+        
 
+    }
+    .Logo{
+        margin-right: 30% !important;
+        font-size: 45px !important;
+
+    }
+    .AllMenu{
+        margin-left: 30% !important;
+        font-size: 45px !important;
+
+    }
+}
+@media screen and (max-width:2299px) and (min-width:2200px) {
+    .t{ 
+        font-size: 30px !important;
+        
+
+    }
+    .Logo{
+        margin-right: 30% !important;
+        font-size: 40px !important;
+
+    }
+    .AllMenu{
+        margin-left: 30% !important;
+        font-size: 40px !important;
+
+    }
+}
+@media screen and (max-width:2199px) and (min-width:1930px) {
+    .t{ 
+        font-size: 25px !important;
+        
+
+    }
+    .Logo{
+
+        margin-right: 30% !important;
+        font-size: 35px !important;
+
+    }
+    .AllMenu{
+        margin-left: 30% !important;
+        font-size: 35px !important;
+
+    }
+}
 @media screen and (max-width:1451px) and (min-width:851px) {
 
     .Logo{

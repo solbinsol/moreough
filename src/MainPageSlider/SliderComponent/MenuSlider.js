@@ -6,7 +6,7 @@ const CafeSlider = () =>{
         <div className={styles.Slider}>
             <img src="images/Menu.jpeg"/>
             <div className={styles.CenterBtn}>
-                <button>MoreoUGH Menu</button>
+                <button>More:Ough Menu</button>
             </div>
         </div>
     )

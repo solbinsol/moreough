@@ -3,6 +3,7 @@ import style from "./FooterCss.module.css";
 
 const Footer = () =>{
     return(
+        <div className={style.AFooter}>
         <div className={style.Footer}>
             <img src="/images/instagram.png"/>
             <h1 className={style.Logo}>MORE:OUGH</h1>
@@ -12,6 +13,7 @@ const Footer = () =>{
             <p>통신판매업신고2017-수원팔달-0435[사업자정보확인] 전화070-7537-0091 팩스</p>
             <p>개인정보보호책임자정지영(jungjiyoungcoffee@gmail.com)</p>
             <p className={style.Fb}>© more:ough. All rights reserved.</p>
+        </div>
         </div>
     )
 }

@@ -7,10 +7,19 @@
     }
      
 }
+
+
+@font-face {
+    font-family: 'abc';
+    src: url('/font/abc/HANAMDAUM_Body(Windows)_a.ttf') format('truetype');
+}
+
+
 .dpg p{
     line-height: 7px;
 }
 .dpg{
+    font-family: 'abc';
     background-color: #C5C7B8;
     float: left;
     width: 100%;

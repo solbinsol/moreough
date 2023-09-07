@@ -33,10 +33,12 @@ const mainpage = () => {
           {selectedMenu === "noncoffee" && <NonCoffee></NonCoffee>}
           {selectedMenu === "desserts" && <Desert></Desert>}
         </div>
-        
       </div>
       <Footer></Footer>
+
     </div>
+
+
   );
 };
 
