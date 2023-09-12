@@ -58,12 +58,16 @@
 
     .Logo{
         margin-left: 1%;
+        line-height: 25px !important;
         width:20% !important ;
-        margin-right: 15% !important;
+        margin-right: 20% !important;
         font-size: 30px !important;
     }
+    .t{
+
+    }
     .AllMenu{
-        width: 3% !important;
+        margin-left: 25% !important;
     }
 }
 @media screen and (max-width:850px) and (min-width:590px) {
@@ -77,17 +81,19 @@
 
     }
     .t{
-        width: 12% !important;
+        width: 6.5% !important;
     }
     .Logo{
         margin-left: 1%;
-        margin-right: 7% !important;
+        line-height: 20px !important;
+        margin-right: 12% !important;
     }
     .AllMenu{
-        margin-left: 5% !important;
+        
+        margin-left: 20% !important;
     }
 }
-@media screen and (max-width:589px) and (min-width:384px) {
+@media screen and (max-width:589px) and (min-width:440px) {
     .Header{
         height: 55px !important;
     }
@@ -104,12 +110,13 @@
         font-size: 20px !important;
     }
     .AllMenu{
+        
         margin-left: 1% !important;
         width: 5% !important;
 
     }
 }
-@media screen and (max-width:383px) and (min-width:200px) {
+@media screen and (max-width:439px) and (min-width:200px) {
     .Header{
         height: 40px !important;
     }
@@ -122,6 +129,7 @@
     }
     .t{ 
         margin-right: 2% !important;
+        display: none;
     }
     .Logo{
         font-size: 16px !important;
@@ -130,8 +138,11 @@
         width: auto !important ;
     }
     .AllMenu{
-        margin-left: 5% !important;
-        width: 1% !important;
+        line-height: 15px;
+        margin-left: 55% !important;
+        margin-right: 5%;
+        font-size: 30px;
+        width: 5% !important;
     }
 }
 /* @media screen and (max-width:500px) and (min-width:300px) {
@@ -190,7 +201,7 @@
     list-style: none;
 }
 .t{
-    margin-right: 1%;
+    margin-right: 2%;
     margin-top: 30px;
 
 

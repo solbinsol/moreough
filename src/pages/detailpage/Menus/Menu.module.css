@@ -17,15 +17,53 @@
     } 
 }
 
+@media screen and (max-width:1666px) and (min-width:1563px){
+
+    #center{
+        margin-left:2% !important;
+        margin-right: 2% !important;
+    }
+    .MenuP{
+        font-size: 27px;
+    } 
+}
+
+@media screen and (max-width:1562px) and (min-width:1531px){
+
+    #center{
+        margin-left:1% !important;
+        margin-right: 1% !important;
+    }
+    .MenuP{
+        font-size: 27px;
+    } 
+}
+@media screen and (max-width:1530px) and (min-width:1200px){
+
+    #center{
+        margin-left:2% !important;
+        margin-right: 2% !important;
+    }
+    .MenuP{
+        font-size: 27px;
+    } 
+    .MenuItem{
+        float: left;
+        width: 30% !important;
+        height: 450px !important;
+    } 
+}
+
+
+
 
 .MenuLi img{
     width: 100%;
 }
 .Menu{
+    height: auto;
     float: left;
-    height: 100%;
     max-width: 3000px;
-    background-color: pink !important;
 
     width: 100%;
 }
@@ -36,7 +74,6 @@
     width: calc(30% );
     height: 500px;
     float: left;
-    min-width: 400px;
 } 
 .MenuItem img{
     height: 100%;    
