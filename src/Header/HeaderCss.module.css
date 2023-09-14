@@ -145,7 +145,7 @@
         width: 5% !important;
     }
 }
-@media screen and (max-width:350px) and (min-width:100px) {
+@media screen and (max-width:350px) and (min-width:302px) {
     .Header{
         height: 40px !important;
     }
@@ -168,6 +168,34 @@
     .AllMenu{
         line-height: 15px;
         margin-left: 55% !important;
+        margin-right: 5%;
+        font-size: 30px;
+        width: 1% !important;
+    }
+}
+@media screen and (max-width:301px) and (min-width:100px) {
+    .Header{
+        height: 40px !important;
+    }
+    .Content{
+        width: 100% !important;
+        float: left !important; 
+        text-align: left;
+    }
+    .Content li{
+    }
+    .t{ 
+        display: none;
+    }
+    .Logo{
+        font-size: 16px !important;
+        margin-right: 5% !important;
+        margin-top: 30px !important;
+        width: auto !important ;
+    }
+    .AllMenu{
+        line-height: 17px;
+        margin-left: 45% !important;
         margin-right: 5%;
         font-size: 30px;
         width: 1% !important;
