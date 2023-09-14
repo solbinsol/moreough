@@ -10,6 +10,8 @@
 }
 @media screen and (max-width:403px) and (min-width:10px){
     .CenterBtn{
+        width: auto !important;
+        font-size: 10px !important;
         left:37% !important;
     }
 }

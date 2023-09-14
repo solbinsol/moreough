@@ -57,7 +57,7 @@
     }
 
 }
-@media screen and (max-width:360px) and (min-width: 10px){
+@media screen and (max-width:365px) and (min-width: 10px){
     .Menus ul{
         margin-left: 2% !important;
     }

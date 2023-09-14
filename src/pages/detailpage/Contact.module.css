@@ -7,7 +7,18 @@
     }
      
 }
-
+@media screen and (max-width:499px) and (min-width:300px) {
+    .Ko{
+        display: none;
+    }
+    .En{
+        display: initial !important;
+    }
+    .ImgBox{
+        margin-top: 35% !important;
+    }
+     
+}
 
 @font-face {
     font-family: 'abc';
@@ -17,6 +28,7 @@
 
 .dpg p{
     line-height: 7px;
+    
 }
 .dpg{
     font-family: 'abc';
@@ -25,7 +37,7 @@
     width: 100%;
 }
 .ImgBox{
-    margin-top: 5%;
+    margin-top: 15%;
     width: 80%;
     margin-left: 10%;
 }
