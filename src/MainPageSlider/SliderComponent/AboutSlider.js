@@ -13,7 +13,7 @@ const AboutSlider = () =>{
         <div className={styles.Slider}>
             <img src="images/AB.jpg"/>
             <div className={styles.CenterBtn}>
-                <button onClick={() => handleNavigate("/detailpage/about")}>우리에 대해서</button>
+                <button onClick={() => handleNavigate("/detailpage/about")}><p>우리에 대해서</p></button>
             </div>
         </div>
     )

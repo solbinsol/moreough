@@ -13,7 +13,7 @@ const CafeSlider = () =>{
         <div className={styles.Slider}>
             <img src="images/cart.jpg"/>
             <div className={styles.CenterBtn}>
-                <button  onClick={() => handleNavigate("/detailpage/cafes")}>온라인 스토어</button>
+                <button  onClick={() => handleNavigate("/detailpage/cafes")}><p>온라인 스토어</p></button>
             </div>
         </div>
     )

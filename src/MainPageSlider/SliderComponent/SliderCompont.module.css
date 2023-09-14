@@ -12,6 +12,10 @@
     .CenterBtn{
         left:37% !important;
     }
+    
+.CenterBtn button p{
+    font-size: 12px !important;
+}
     .CenterBtn button{
         width: auto !important;
         left:37% !important;
@@ -44,7 +48,6 @@
     left: 45%;
 }
 .CenterBtn button{
-    font-size: 15px;
     font-family: 'abc';
     font-weight: bold;
     color:  white;
