@@ -45,14 +45,202 @@
         margin-right: 2% !important;
     }
     .MenuP{
-        font-size: 27px;
+        font-size: 23px;
     } 
     .MenuItem{
         float: left;
         width: 30% !important;
-        height: 450px !important;
+        height: 420px !important;
     } 
 }
+@media screen and (max-width:1199px) and (min-width:1020px){
+
+    #center{
+        margin-left:2% !important;
+        margin-right: 2% !important;
+    }
+    .MenuP{
+        font-size: 20px;
+    } 
+    .MenuItem{
+        float: left;
+        width: 30% !important;
+        height: 350px !important;
+    } 
+}
+@media screen and (max-width:1019px) and (min-width:900px){
+
+    #center{
+        margin-left:2% !important;
+        margin-right: 2% !important;
+    }
+    .MenuP{
+        font-size: 19px;
+    } 
+    .MenuItem{
+        float: left;
+        width: 30% !important;
+        height: 310px !important;
+    } 
+}
+
+@media screen and (max-width:899px) and (min-width:720px){
+
+    #center{
+        margin-left:2% !important;
+        margin-right: 2% !important;
+    }
+    .MenuP{
+        font-size: 19px;
+    } 
+    .MenuItem{
+        float: left;
+        width: 30% !important;
+        height: 250px !important;
+    } 
+}
+
+
+
+
+@media screen and (max-width:719px) and (min-width:600px){
+
+    #center{
+        margin-left:0% !important;
+        margin-right: 0% !important;
+    }
+    .MenuP{
+        font-size: 18px !important;
+        width: 100% !important;
+    }
+    .MenuName{
+        font-size: 18px !important;
+
+        margin: 0;
+    } 
+    .Price{
+        margin: 0;
+
+        font-size: 18px !important;
+
+    }
+
+    .MenuItem{
+        margin-bottom: 10%;
+        float: left;
+        width: 100% !important;
+        height: 500px !important;
+    } 
+
+}
+
+
+@media screen and (max-width:599px) and (min-width:530px){
+
+    #center{
+        margin-left:0% !important;
+        margin-right: 0% !important;
+    }
+    .MenuP{
+        font-size: 11px !important;
+        width: 100% !important;
+    }
+    .MenuName{
+        font-size: 18px !important;
+
+        margin: 0;
+    } 
+    .Price{
+        font-size: 18px !important;
+
+        margin: 0;
+    }
+
+    .MenuItem{
+        margin-bottom: 10%;
+        float: left;
+        width: 100% !important;
+        height: 400px !important;
+    } 
+}
+@media screen and (max-width:529px) and (min-width:480px){
+
+        #center{
+            margin-left:0% !important;
+            margin-right: 0% !important;
+        }
+        .MenuP{
+            font-size: 11px !important;
+            width: 100% !important;
+        }
+        .MenuName{
+            margin: 0;
+        } 
+        .Price{
+            margin: 0;
+        }
+    
+        .MenuItem{
+            margin-bottom: 10%;
+            float: left;
+            width: 100% !important;
+            height: 370px !important;
+        } 
+    }
+@media screen and (max-width:479px) and (min-width:400px){
+
+    #center{
+        margin-left:0% !important;
+        margin-right: 0% !important;
+    }
+    .MenuP{
+        font-size: 11px !important;
+        width: 100% !important;
+    }
+    .MenuName{
+        margin: 0;
+    } 
+    .Price{
+        margin: 0;
+    }
+
+    .MenuItem{
+        margin-bottom: 10%;
+        float: left;
+        width: 100% !important;
+        height: 350px !important;
+    } 
+}
+@media screen and (max-width:399px) and (min-width:350px){
+
+    #center{
+        margin-left:0% !important;
+        margin-right: 0% !important;
+    }
+    .MenuP{
+        font-size: 10px !important;
+    }
+    .MenuName{
+        margin-top: 5px !important;
+        float: left !important;
+        margin: 0;
+    } 
+    .Price{
+        margin: 0;
+
+        margin-top: 5px !important;
+
+        text-align: left !important;
+    }
+
+    .MenuItem{
+        float: left;
+        margin-bottom:18%;
+        width: 100%!important;
+        height: 290px !important;
+    } 
+}
+
 
 
 
@@ -82,13 +270,14 @@
 }
 .MenuName{
 
-    width: 50%;
+    width: auto;
     float: left;
 }
 .Price{
     margin-right: 0%;
     text-align: right;
     float: right;
+    width: auto;
     color:gray;
 }
 #center{
