@@ -6,6 +6,7 @@ import { useRouter } from "next/router";
 import Allmenu from "../pages/allmenu";
 
 const Header = () => {
+  
   const router = useRouter();
   const [showNewComponent, setShowNewComponent] = useState(false); // 상태 추가
 
